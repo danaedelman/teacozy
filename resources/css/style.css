@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2 h3 h4 {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+/*  header */
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 5;
+  background-color: black;
+  margin: 0;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+
+}
+
+nav span {
+  padding: 20px 10px;
+
+}
+
+a {
+  color: seashell;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+
+  }
+
+/*  main content*/
+
+.main-content {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+
+}
+
+/*  Mission Section */
+
+#mission {
+ display: flex;
+ height: 700px;
+ background-image: url(/Users/ProTools/Desktop/projects/teacozy/resources/images/img-mission-background.jpg);
+ padding-top: 70px;
+
+
+}
+
+.mission-content {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+
+}
+
+
+/*  Product Section */
+
+#featuredtea  {
+
+  /* display: flex; */
+  width: 1000px;
+  height: 700px;
+  /* background-color: black;
+  justify-content: center; */
+  margin: auto;
+  padding-top: 70px;
+}
+
+
+.featured-tea-content {
+ padding-top: 70px;
+
+}
+
+.featured-tea-content h2 {
+
+  margin: 0;
+}
+
+.tea-image img {
+
+  height: 200px;
+  /* width: 300px; */
+  display: block;
+  margin: 10px;
+}
+
+.tea-image {
+  padding: 5px;
+}
+
+.tea-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.tea-image span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+/*   Location Section */
+
+
+/*  info / footer section */
