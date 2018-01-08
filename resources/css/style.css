@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   background-color: black;
   font-family: Helvetica, sans-serif;
@@ -18,7 +18,7 @@ h4 {
 
 
 /*  header */
-
+/*
 header {
   height: 69px;
   width: 100%;
@@ -43,13 +43,13 @@ nav {
   text-align: right;
   flex-grow: 1;
 
-}
+} */
 
-nav span {
+/* nav span {
   padding: 20px 10px;
 
-}
-
+} */
+/*
 a {
   color: seashell;
 }
@@ -62,26 +62,24 @@ header img {
 
 /*  main content*/
 
-.main-content {
+/* .main-content {
   padding-top: 69px;
   opacity: 0.9;
   width: 1200px;
   margin: auto;
-}
+} */
 
 /*  Mission Section */
 
-#mission {
- /* display: flex; */
+/* #mission {
+
  height: 700px;
- background-image: url(/Users/ProTools/Desktop/projects/teacozy/resources/images/img-mission-background.jpg);
+ background-image: url(../images/img-mission-background.jpg);
  padding-top: 70px;
 
+} */
 
-
-}
-
-.mission-content {
+/* .mission-content {
   margin: auto;
   width: 100%;
   background-color: black;
@@ -91,29 +89,177 @@ header img {
 
 /*  Product Section */
 
-#featuredtea  {
+/* #featuredtea  {
 
   height: 700px;
   width: 1000px;
   margin: auto;
-  /* padding-top: 70px; */
-}
 
-#featuredtea, .section {
+}  */
+/*
+/* #featuredtea, .section {
   padding-top: 70px;
   padding-bottom: 70px;
+} */
+
+
+/* .item {
+  padding: 5px;
+}  */
+
+/* .item img {
+
+  height: 200px;
+  display: block;
+  margin: 10px;
+}  */
+
+/* .item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+/*   Location Section */
+
+/* #locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+
+} */
+/*
+#locations.flex-container {
+  width: 1100px;
+  margin: auto;
 }
 
+.flex-containter.locations {
+  padding-top: 5px;
+
+
+}  */
+
+/* .location {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+}
+
+.location span {
+  display: block;
+
+} */
+
+/*  info / footer section */
+
+
+
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#mission {
+
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+.mission-content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Store Section */
+
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
 
 .item {
   padding: 5px;
 }
 
 .item img {
-
   height: 200px;
-  display: block;
   margin: 10px;
+  display: block;
 }
 
 .item span {
@@ -122,43 +268,53 @@ header img {
   font-weight: bold;
   text-align: center;
 }
-/*   Location Section */
+
+#featuredtea, .section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Location Section */
+
+.flex-container.locations {
+  padding-top: 5px;
+}
 
 #locations {
-  background-image: url(/Users/ProTools/Desktop/projects/teacozy/resources/images/img-locations-background.jpg);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#locations .flex-container {
+  margin: auto;
   width: 1100px;
-
 }
 
-.store {
-  background-color: black;
-  width: 300px;
-  margin: 5px 20px;
-
-
-
-}
-
-.stores {
+.location {
+  opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
-  width: 1100px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  background-color: black;
   flex-basis: 280px;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.store span {
-  display: block;
-  opacity: 1;
-  text-align: center;
-  padding: 20px;
-  font-size: 22px;
-  font-weight: 400;
+/* Contact Section */
+
+#contact {
+  height: 200px;
 }
 
-/*  info / footer section */
+/* Footer Section */
+
+
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
